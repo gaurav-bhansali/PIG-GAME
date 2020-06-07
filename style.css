@@ -1,111 +1,109 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(back.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    font-weight: 300;
-
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  background-image: url(back.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  font-weight: 300;
 }
 .container {
-    margin: 3rem auto;
-    height: 38rem;
-    width: 70rem;
-    background-color: #fff;
-    position: relative;
-    /* overflow-y: hidden; */
-
+  margin: 3rem auto;
+  height: 38rem;
+  width: 70rem;
+  background-color: #fff;
+  position: relative;
+  /* overflow-y: hidden; */
 }
 .wrapper {
-    display: flex;
-    justify-content: space-around;
-    height: 35rem;
-
+  display: flex;
+  justify-content: space-around;
+  height: 35rem;
 }
 .player-0-panel,
 .player-1-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .player {
-    font-size:3rem;
-    text-transform: uppercase;
-    font-weight: 300;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 .score {
-    font-size: 3.6rem;
-    font-weight: 300;
-    text-align: center;
-    padding-top:2rem ;
-    color: rgb(216, 56, 56)
+  font-size: 3.6rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2rem;
+  color: rgb(216, 56, 56);
 }
 .current-box {
-    background-color: rgb(252, 113, 63);
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    padding: .6rem;
-    font-size: 1.4rem;
-    font-weight: 400;
+  background-color: rgb(252, 113, 63);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 .curr {
-    color: black;
-    margin-bottom: .8rem;
+  color: black;
+  margin-bottom: 0.8rem;
 }
 
 .dice {
-    position: absolute;
-    width: 7rem;
-    top: 35%;
-    left: 46%;
-} 
+  position: absolute;
+  width: 7rem;
+  top: 35%;
+  left: 46%;
+}
 .btn-new {
-    border: none;
-    outline: none;
-    font-size: 1.8rem;
-    color: rgb(235, 145, 145);
-    position: absolute;
-    top: 2rem;
-    left: 43%;
-    background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: rgb(235, 145, 145);
+  position: absolute;
+  top: 2rem;
+  left: 43%;
+  background-color: #fff;
 }
 .ion-ios-plus-outline,
 .ion-ios-loop,
-.ion-ios-download-outline{
-    margin-right: 1rem;
-    color: yellowgreen;
+.ion-ios-download-outline {
+  margin-right: 1rem;
+  color: yellowgreen;
 }
 
 .btn-hold {
-    border: none;
-    outline: none;
-   font-size: 1.8rem;
-   color: rgb(235, 145, 145);
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: rgb(235, 145, 145);
 
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .btn-roll {
-    border: none;
-    outline: none;
-    font-size: 1.8rem;
-    color: rgb(235, 145, 145);
-    background-color: #fff;
-    margin-bottom: 1.2rem;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: rgb(235, 145, 145);
+  background-color: #fff;
+  margin-bottom: 1.2rem;
 }
 
 .btn-wrapper {
-    display: flex;
-    margin-top: -4rem;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  margin-top: -4rem;
+  flex-direction: column;
+  align-items: center;
 }

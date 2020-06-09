@@ -109,6 +109,12 @@ body {
   align-items: center;
 }
 
+@media (max-width: 1120px) {
+  .container {
+    margin: 2rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .container {
     margin: 2rem;
